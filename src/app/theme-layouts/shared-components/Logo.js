@@ -30,8 +30,6 @@ function Logo() {
   const navbar = useSelector(selectFuseNavbar);
   const { selectedNavGroup, navGroups } = navbar;
 
-  console.log('navGroups', navGroups);
-
   const handleChange = (event) => {
     dispatch(setNavGroup(event.target.value));
     if (event.target.value === 'admin') {

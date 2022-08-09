@@ -49,7 +49,8 @@ function NavbarStyle1Content(props) {
         option={{ suppressScrollX: true, wheelPropagation: false }}
       >
         <UserNavbarHeader />
-        <Divider/>
+
+        <Divider sx={{ mb: 2 }} />
 
         <Navigation layout="vertical" />
 

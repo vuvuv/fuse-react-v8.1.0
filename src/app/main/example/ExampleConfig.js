@@ -4,6 +4,7 @@ import en from './i18n/en';
 import tr from './i18n/tr';
 import ar from './i18n/ar';
 import Example from './Example';
+import TestTable from '../tables/Table';
 
 i18next.addResourceBundle('en', 'examplePage', en);
 i18next.addResourceBundle('tr', 'examplePage', tr);
@@ -19,6 +20,10 @@ const ExampleConfig = {
     {
       path: 'example',
       element: <Example />,
+    },
+    {
+      path: 'table_1',
+      element: <TestTable />,
     },
   ],
 };

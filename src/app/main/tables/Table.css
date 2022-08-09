@@ -1,0 +1,11 @@
+.tableContainer{
+    padding: 20px;
+}
+
+.modalDataTable{
+    margin-top: 20px;
+}
+
+.modalDataTable td {
+    padding-right: 20px;
+}

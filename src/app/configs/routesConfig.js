@@ -18,6 +18,11 @@ const routes = [
     auth: settingsConfig.defaultAuth,
   },
   {
+    path: '/table_1',
+    element: <Navigate to="/table_1" />,
+    auth: settingsConfig.defaultAuth,
+  },
+  {
     path: 'loading',
     element: <FuseLoading />,
   },
